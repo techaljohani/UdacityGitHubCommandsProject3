@@ -9,7 +9,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 month_list=['january', 'february', 'march', 'april', 'may', 'june','all']
 weekday_list=['sunday','monday','tuesday','wednesday','thursday','friday','saturday','all']
 
-#function to validate user input
+#function to validate user input To Make sure user input are valid 
 def check_user_input(user_input,input_type):
     while True:
             input_user_entered=input(user_input).lower()
