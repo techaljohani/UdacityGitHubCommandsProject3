@@ -12,7 +12,9 @@ weekday_list=['sunday','monday','tuesday','wednesday','thursday','friday','satur
 #function to validate user input
 def check_user_input(user_input,input_type):
     while True:
+        #after taking the user input we are converting them to lower letter to match the city list
             input_user_entered=input(user_input).lower()
+            #adding the try and ecept
             try:
                 if input_user_entered in ['chicago','new york city','washington'] and input_type == 'c':
                     break
@@ -34,7 +36,6 @@ def check_user_input(user_input,input_type):
 def get_filters():
 
     print('Hello! Let\'s explore some US bikeshare data!')
-
     # get user input for city (chicago, new york city, washington), and check user input validity
     city = check_user_input("Would you like to see the data for chicago, new york city or washington?\n",'c')
     # get user input for month (all, january, february, ... , june), and check user input validity
@@ -186,7 +187,7 @@ def show_row_data(df):
         elif view_raw_data == "n":
             break
         else: #validate user input
-            print("Sorry! You entered Wrong Input, Kindly try Again!")
+            print("Oh Sorry! You entered Wrong Input, Kindly try Again!")
 
 
 def main():
