@@ -13,7 +13,12 @@ Explore US Bikeshare Data
 In this project, you will make use of Python to explore data related to bike share systems for three major cities in the United States—Chicago, New York City, and Washington. You will write code to import the data and answer interesting questions about it by computing descriptive statistics. You will also write a script that takes in raw input to create an interactive experience in the terminal to present these statistics.
 
 ### Files used
-The following file contains necessary code: bikeshare.py and The following files are not uploaded to remote repo by using .gitignore because the files are too big:chicago.csv,new_york_city.csv and washington.csv.
+The following file contains necessary code:
+- bikeshare.py .
+The following files are not uploaded to remote repo by using .gitignore because the files are too big:
+- chicago.csv
+- new_york_city.csv
+- washington.csv
 
 
 ### Credits
@@ -21,4 +26,3 @@ The following file contains necessary code: bikeshare.py and The following files
 - Numpy documentation.
 - (if needed) Python documentation for controlflow.
 - If I have doubts about the errors occured while running the code I used: www.stackoverflow.com
-=======
